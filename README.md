@@ -14,3 +14,6 @@
 
 Ссылка на обучение C#: [тык](https://www.sololearn.com/ru/learn/courses/c-sharp-intermediate)
 
+### Git Flow
+![alt text](images/gitflow.png)
+
