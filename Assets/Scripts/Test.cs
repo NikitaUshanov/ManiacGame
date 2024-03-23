@@ -9,6 +9,7 @@ public class Test : MonoBehaviour
     {
         Vector2 newVector = new Vector2(0, 0);
         Vector2 secondVector = new Vector2(0, 0);
+        Vector2 thirdVector = new Vector2(0, 0);
     }
 
     // Update is called once per frame
