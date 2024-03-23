@@ -1,0 +1,16 @@
+name: "Pull Request Rules"
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  check-merge:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check if PR is merging from specific branch
+      run: |
+        if [ "$GITHUB_HEAD_REF" != "master" ]; then
+          echo "Merge from specified branch only is allowed"
+          exit 1
+        fi
