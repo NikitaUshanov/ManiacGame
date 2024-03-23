@@ -1,0 +1,6 @@
+merges:
+  - name: "Restrict merges to only allow merging from specific branches"
+    rules:
+      - if: '$CI_MERGE_REQUEST_TARGET_BRANCH_NAME == "master"'
+        changes:
+          - develop
